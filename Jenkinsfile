@@ -14,7 +14,7 @@ pipeline {
         stage('BuildWAR') {
             steps {
             
-            	dir('src/main/webapp') {
+            	dir('SWE645HW1PT2') {
             		echo 'Creating the Jar ...'
 					sh 'java -version'
 					sh 'jar -cvf Hw1.war *'
